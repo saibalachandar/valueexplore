@@ -3,8 +3,385 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>valueexplore</title>
+    <meta
+      name="description"
+      content="Best Create and design websites and beautiful results"
+    />
+    <meta property="og:title" content="valueexplore..." />
+    <meta property="og:description" content="valueexplore..." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://" />
+    <meta property="og:url" content="https://valueexplore.com" />
+    <title>value-explore</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body></body>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+  <body>
+    <header class="navbar">
+        <nav class="nav collapsible">
+          <div class="mofa--color">
+            <img class="logo" src="/img/mofalogo.png" alt="logo" />
+            <svg class="icon icon--primary">
+              <use href="img/sprite.svg#mofabrands"></use>
+            </svg>
+            <h2 class="mofa">oFa</h2>
+          </div>
+          <svg class="icon nav--icon collapsible__chevron">
+            <use href="img/sprite.svg#sort"></use>
+          </svg>
+          <ul class="nav__list collapsible__content">
+            <li class="list__item">
+              <a href="#home">Home</a>
+            </li>
+            <li class="list__item">
+              <a href="#about">About</a>
+            </li>
+            <li class="list__item">
+              <a href="#skills">Skill</a>
+            </li>
+            <li class="list__item"><a href="#team">Team</a></li>
+            <li class="list__item">
+              <a href="#service">Service</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- hero -->
+      <section id="home" class="hero">
+        <div class="hero--change">
+          <header class="hero__header">
+            <h2 class="block__heading hero--design">
+              Hell<span>o!</span> ,I am WebDeveloper
+            </h2>
+            <p class="hero--special">
+              My Expertise is to Create and design websites and many more get
+              beautiful results forever
+            </p>
+            <button class="btn btn--primary">
+              <a href="mailto:saibalachandar2001@gmail.com"> Hire Me</a>
+            </button>
+          </header>
+          <div class="hero__img" data-aos="zoom-in-down">
+            <svg class="icon hero__icon">
+              <use href="img/sprite.svg#programming"></use>
+            </svg>
+          </div>
+        </div>
+      </section>
+  
+      <!-- about -->
+      <section id="about" class="container">
+        <header class="block__header">
+          <h2 class="block__heading block--profile">About Me</h2>
+          <p class="block__about">Who am no users</p>
+        </header>
+        <div class="profile grid grid--1x2">
+          <div class="about" data-aos="fade-right">
+            <picture>
+              <source type="image/webp" srcset="img/saibala.webp 1x" />
+              <source type="image/png" srcset="img/saibala.png 1x" />
+              <img class="admin__img" src="/img/saibala.png" alt="Admin Photo" />
+            </picture>
+          </div>
+          <div class="about__content" data-aos="zoom-in-down">
+            <h3 class="about__me">I'm <span>Saibalachandar</span></h3>
+  
+            <p class="about__dedicate">
+              I'm a Web Developer and I am very Passionate and dedicated to my
+              work. I have acquired the skills and knowledges your project a
+              success.
+            </p>
+            <div class="social__icon">
+              <a
+                aria-label="instgarm"
+                class="link"
+                href="https://www.instagram.com/sai_balachandar/"
+              >
+                <svg class="icon icon--primary">
+                  <use href="img/sprite.svg#instagram"></use></svg
+              ></a>
+              <a
+                aria-label="facebook"
+                class="link"
+                href="https://www.facebook.com/sai.balachandar.1"
+              >
+                <svg class="icon icon--primary">
+                  <use href="img/sprite.svg#facebook"></use></svg
+              ></a>
+  
+              <a
+                aria-label="twitter"
+                class="link"
+                href="https://twitter.com/balachandar_sai"
+              >
+                <svg class="icon icon--primary">
+                  <use href="img/sprite.svg#twitter"></use></svg
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- skills -->
+      <section id="skills" class="block">
+        <header class="block__header">
+          <h2 class="block__heading block--profile">Skills</h2>
+        </header>
+        <div class="profile grid grid--1x2">
+          <div class="skill" data-aos="flip-right">
+            <div class="skill__setion">
+              <h3 class="skill__heading">Professional Skills</h3>
+            </div>
+            <div class="skill__container skill--modified">
+              <svg class="icon icon--primary">
+                <use href="img/sprite.svg#html"></use>
+              </svg>
+              <div class="program">
+                <span class="course__color">Hypertext Markup Language</span>
+                <h4 class="program__base">I am very dedicated to my work</h4>
+              </div>
+            </div>
+            <div class="program__stage">
+              <span class="progarm--html"></span>
+            </div>
+  
+            <div class="skill__container skill--modified">
+              <svg class="icon icon--primary">
+                <use href="img/sprite.svg#css3"></use>
+              </svg>
+              <div class="program">
+                <span class="course__color">Cascading Style Sheets</span>
+                <h4 class="program__base">
+                  I am very dedicated to my style work
+                </h4>
+              </div>
+            </div>
+            <div class="program__stage">
+              <span class="progarm--css"></span>
+            </div>
+            <div class="skill__container skill--modified">
+              <svg class="icon icon--primary">
+                <use href="img/sprite.svg#js"></use>
+              </svg>
+              <div class="program">
+                <span class="course__color">JavaScript</span>
+                <h4 class="program__base">
+                  I am very dedicated to my frontend work
+                </h4>
+              </div>
+            </div>
+            <div class="program__stage">
+              <span class="progarm--js"></span>
+            </div>
+            <div class="skill__language"></div>
+          </div>
+          <div class="skill" data-aos="flip-left">
+            <div class="skill__setion">
+              <h3 class="skill__heading">Personal skills</h3>
+            </div>
+            <div class="skill__container skill--modified">
+              <svg class="icon icon--primary">
+                <use href="img/sprite.svg#team"></use>
+              </svg>
+              <div class="program">
+                <span class="course__color">Team Works</span>
+                <h4 class="program__base">
+                  The value of achivement lies in the achieving
+                </h4>
+              </div>
+            </div>
+            <div class="program__stage">
+              <span class="progarm--html"></span>
+            </div>
+  
+            <div class="skill__container skill--modified">
+              <svg class="icon icon--primary">
+                <use href="img/sprite.svg#motivation"></use>
+              </svg>
+              <div class="program">
+                <span class="course__color">Self Motivaation</span>
+                <h4 class="program__base">Dream it / Wish it / Do it.</h4>
+              </div>
+            </div>
+            <div class="program__stage">
+              <span class="progarm--motivaation"></span>
+            </div>
+            <div class="skill__container skill--modified">
+              <svg class="icon icon--primary">
+                <use href="img/sprite.svg#dedication"></use>
+              </svg>
+              <div class="program">
+                <span class="course__color">Dedication</span>
+                <h4 class="program__base">
+                  There are no shortcuts to any place worth going..
+                </h4>
+              </div>
+            </div>
+            <div class="program__stage">
+              <span class="progarm--dedication"></span>
+            </div>
+            <div class="skill__language"></div>
+          </div>
+        </div>
+      </section>
+      <!-- team -->
+      <section id="team" class="progress block--skewed-left">
+        <header class="block__header">
+          <h2 class="block__heading">My Team</h2>
+        </header>
+        <div class="maincard">
+  
+          <div class="card">
+            <div class="img">
+              <picture>
+                <source type="image/webp" srcset="img/manoj.webp 1x" />
+                <source type="image/png" srcset="img/manoj.png 1x" />
+                <img class="team__img" src="/img/manoj.png" alt="team" />
+              </picture>
+            </div>
+            <div class="card__info">
+              <h3 class="team__member"><span>M</span>ano Dav</h3>
+              <p class="team__work">UI/UX Designer</p>
+              <p class="card__develop">
+                I'm a UI/UX Designer and i am very dedicated to my work
+              </p>
+              <div class="social__icon">
+                <a
+                  aria-label="instgarm"
+                  class="link"
+                  href="https://www.instagram.com/just_call_me_ketta_payan_tn_29"
+                >
+                  <svg class="icon icon--primary">
+                    <use href="img/sprite.svg#instagram"></use></svg
+                ></a>
+                <a
+                  aria-label="facebook"
+                  class="link"
+                  href="https://www.facebook.com/romanoj.romanoj.7"
+                >
+                  <svg class="icon icon--primary">
+                    <use href="img/sprite.svg#facebook"></use></svg
+                ></a>
+  
+                <a aria-label="twitter" class="link" href="#">
+                  <svg class="icon icon--primary">
+                    <use href="img/sprite.svg#twitter"></use></svg
+                ></a>
+              </div>
+            </div>
+          </div>
+     
+      </section>
+      <!-- services -->
+      <section id="service" class="block block--dark" data-aos="zoom-in">
+        <header class="block__header">
+          <h2 class="block__heading">My Services</h2>
+        </header>
+        <div class="container grid grid--1x2 grid--1x3">
+          <div class="services">
+            <svg class="icon icon--primary">
+              <use href="img/sprite.svg#code"></use>
+            </svg>
+            <h3 class="service__heading"><span>Web</span> Development</h3>
+            <p>
+              Modern and Moblie ready website that will help you reach all your
+              marketing
+            </p>
+          </div>
+          <div class="services">
+            <svg class="icon icon--primary">
+              <use href="img/sprite.svg#laptop"></use>
+            </svg>
+            <h3 class="service__heading"><span>Graphic</span> Designing</h3>
+            <p>Digital design is like painting, except the paint never dries</p>
+          </div>
+          <div class="services">
+            <svg class="icon icon--primary">
+              <use href="img/sprite.svg#apple"></use>
+            </svg>
+            <h3 class="service__heading"><span>App </span> Developing</h3>
+            <p>
+              Your mobile device has quickly become the easiest portal into your
+              digital self
+            </p>
+          </div>
+          <div class="services">
+            <svg class="icon icon--primary">
+              <use href="img/sprite.svg#camera"></use>
+            </svg>
+            <h3 class="service__heading"><span>Photo</span> Graphy</h3>
+            <p>
+              We are making photographs to understand what our lives mean to us
+            </p>
+          </div>
+          <div class="services">
+            <svg class="icon icon--primary">
+              <use href="img/sprite.svg#video"></use>
+            </svg>
+            <h3 class="service__heading"><span>Video</span> Editing</h3>
+            <p>
+              I feel that working with the camera and editing it is actually my
+              strong suit
+            </p>
+          </div>
+          <div class="services">
+            <svg class="icon icon--primary">
+              <use href="img/sprite.svg#seo"></use>
+            </svg>
+            <h3 class="service__heading"><span>SEO</span> Export</h3>
+            <p>Good SEO work only gets better over time</p>
+          </div>
+        </div>
+      </section>
+      <!-- foooter -->
+      <footer class="footer">
+        <div class="grid grid--1x2 grid--1x3 footer__section">
+          <div class="mofa--color">
+            <img class="logo" src="/img/mofalogo.png" alt="logo" />
+            <svg class="icon icon--primary">
+              <use href="img/sprite.svg#mofabrands"></use>
+            </svg>
+            <h2 class="mofa">oFaTechonlogy</h2>
+          </div>
+          <h2 class="copy__right">@copyright MofaTechonlogy</h2>
+          <div class="social__icon">
+            <a
+              aria-label="instagram"
+              class="link"
+              href="https://www.instagram.com/sai_balachandar/"
+            >
+              <svg class="icon icon--primary">
+                <use href="img/sprite.svg#instagram"></use></svg
+            ></a>
+            <a
+              aria-label="facebook"
+              class="link"
+              href="https://www.facebook.com/sai.balachandar.1"
+            >
+              <svg class="icon icon--primary">
+                <use href="img/sprite.svg#facebook"></use></svg
+            ></a>
+  
+            <a
+              aria-label="twitter"
+              class="link"
+              href="https://twitter.com/balachandar_sai"
+            >
+              <svg class="icon icon--primary">
+                <use href="img/sprite.svg#twitter"></use></svg
+            ></a>
+          </div>
+        </div>
+      </footer>
+      <script src="/js/main.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+  </body>
 </html>
